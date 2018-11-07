@@ -1,6 +1,8 @@
 # Project Title
 
-One Paragraph of project description goes here
+One or two paragraphs of project description goes here. Talk about the scope of the problem that you are addressing and include any relevant NGO definitions of existing goals or initiatives. Describe the impact of the problem on human lives and the wellbeing of communities.
+
+Then explain the anticipated or proven impact of your solution, and explaining in particular the novel or innovative advantage this has over existing solutions that make it attractive to developers and users (such as potential customers).
 
 ## Getting Started
 
@@ -78,7 +80,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2 License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
