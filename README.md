@@ -9,9 +9,9 @@ A basic GitHub repository example for Call for Code submissions and those projec
 ## Contents
 
 1. [Short description](#short-description)
-1. [Long description](#long-description)
-1. [The architecture](#the-architecture)
 1. [Demo video](#demo-video)
+1. [The architecture](#the-architecture)
+1. [Long description](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
@@ -34,10 +34,6 @@ Schools and teachers can continue to engage with their students through virtual 
 ### The idea
 It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
 
-## Long description
-
-[More detail is available here](DESCRIPTION.md)
-
 ## Demo video
 
 [![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
@@ -50,6 +46,10 @@ It's imperative that learning and creating can continue when educational institu
 2. Watson Speech to Text processes the audio and extracts the text.
 3. Watson Translation (optionally) can translate the text to the desired language.
 4. The app stores the translated text as a document within Object Storage.
+
+## Long description
+
+[More detail is available here](DESCRIPTION.md)
 
 ## Project roadmap
 
