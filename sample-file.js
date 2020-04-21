@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Daniel Krook
+ * Copyright 2020 Daniel Krook
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

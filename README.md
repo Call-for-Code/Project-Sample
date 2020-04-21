@@ -1,14 +1,24 @@
-# Project Title
+# Project title
 
 *Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
 
-One or two paragraphs of project description goes here. Talk about the scope of the problem that you are addressing and include any relevant NGO definitions of existing goals or initiatives. Describe the impact of the problem on human lives and the wellbeing of communities.
+One or two paragraphs of project description goes here. Talk about the scope of the problem that you are addressing and include any relevant expert organization definitions of existing goals or initiatives. Describe the impact of the problem on human communities.
 
 Then explain the anticipated or proven impact of your solution, and explaining in particular the novel or innovative advantage this has over existing solutions that make it attractive to developers and users (such as potential customers).
 
-[Project website](https://code-and-response.github.io/Project-Sample/)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
 
-## Getting Started
+[Longer description](DESCRIPTION.md)
+
+## Demo video
+
+[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+
+## Project roadmap
+
+![Roadmap](roadmap.jpg)
+
+## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -77,7 +87,7 @@ Add additional notes about how to deploy this on a live system
 echo "This is so different, you should put your own here."
 ```
 
-## Built With
+## Built with
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
@@ -95,7 +105,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
 
 ## License
 

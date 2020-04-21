@@ -6,5 +6,5 @@ One or two paragraphs of project description goes here. Talk about the scope of 
 
 Then explain the anticipated or proven impact of your solution, and explaining in particular the novel or innovative advantage this has over existing solutions that make it attractive to developers and users (such as potential customers).
 
-[Project website](https://call-for-code.github.io/project-sample/)
+[Project website](https://code-and-response.github.io/Project-Sample/)
 
