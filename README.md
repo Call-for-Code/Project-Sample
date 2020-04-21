@@ -6,13 +6,14 @@
 
 ## Contents
 
-1. [Short description](#overview)
+1. [Short description](#short-description)
 1. [Long description](#long-description)
 1. [The architecture](#the-architecture)
 1. [Demo video](#demo-video)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
+1. [Live demo](#live-demo)
 1. [Built with](#built-with)
 1. [Contributing](#contributing)
 1. [Versioning](#versioning)
@@ -113,13 +114,9 @@ npx eslint --init
 npx eslint sample-file.js
 ```
 
-## Deployment
+## Live demo
 
-Add additional notes about how to deploy this on a live system
-
-```bash
-echo "This is so different, you should put your own here."
-```
+You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
 
 ## Built with
 
