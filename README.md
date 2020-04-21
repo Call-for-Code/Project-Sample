@@ -1,14 +1,48 @@
-# Project title
-
-*Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
-
-One or two paragraphs of project description goes here. Talk about the scope of the problem that you are addressing and include any relevant expert organization definitions of existing goals or initiatives. Describe the impact of the problem on human communities.
-
-Then explain the anticipated or proven impact of your solution, and explaining in particular the novel or innovative advantage this has over existing solutions that make it attractive to developers and users (such as potential customers).
+# Submission name
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
 
-[Longer description](DESCRIPTION.md)
+*Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
+
+## Contents
+
+1. [Short description](#overview)
+1. [Long description](#long-description)
+1. [The architecture](#the-architecture)
+1. [Demo video](#demo-video)
+1. [Project roadmap](#project-roadmap)
+1. [Getting started](#getting-started)
+1. [Running the tests](#running-the-tests)
+1. [Built with](#built-with)
+1. [Contributing](#contributing)
+1. [Versioning](#versioning)
+1. [Authors](#authors)
+1. [License](#license)
+1. [Acknowledgments](#acknowledgments)
+
+## Short description
+
+### What's the problem?
+Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time,  keeping them engaged, entertained, and on top of their education is important. 
+
+### How can technology help?
+Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well. 
+
+### The idea
+It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+
+## Long description
+
+[More detail is available here](DESCRIPTION.md)
+
+## The architecture
+
+![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+
+1. The user navigates to the site and uploads a video file.
+2. Watson Speech to Text processes the audio and extracts the text.
+3. Watson Translation (optionally) can translate the text to the desired language.
+4. The app stores the translated text as a document within Object Storage.
 
 ## Demo video
 
@@ -89,8 +123,11 @@ echo "This is so different, you should put your own here."
 
 ## Built with
 
+* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
+* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
+* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Maven](https://maven.apache.org/) - Dependency management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
