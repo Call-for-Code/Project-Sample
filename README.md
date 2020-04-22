@@ -148,7 +148,7 @@ See also the list of [contributors](https://github.com/Code-and-Response/Project
 
 ## License
 
-This project is licensed under the Apache 2 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
