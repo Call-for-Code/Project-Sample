@@ -101,7 +101,7 @@ Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
-Explain what these tests test and why, if you were using something like `mocha` for instnance
+Explain what these tests test and why, if you were using something like `mocha` for instance
 
 ```bash
 npm install mocha --save-dev
