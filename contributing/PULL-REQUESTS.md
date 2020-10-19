@@ -39,8 +39,8 @@ so that you can make the actual changes. This is where we will start.
 ## Dependencies
 
 More details to come on Project Sample dependencies. In case of doubt, open an issue in the
-[issue tracker](https://github.com/Code-and-Response/Project-Sample/issues/) or engage on the 
-[Project Sample Slack workspace][].
+[issue tracker](https://github.com/Call-for-Code/Project-Sample/issues/) or engage on the 
+[Project Sample Slack workspace](https://callforcode.org/slack).
 
 ## Setting up your local environment
 
@@ -52,13 +52,13 @@ it's time to create a fork.
 
 ### Step 1: Fork
 
-Fork the project [on GitHub](https://github.com/Code-and-Response/Project-Sample) and clone your fork
+Fork the project [on GitHub](https://github.com/Call-for-Code/Project-Sample) and clone your fork
 locally.
 
 ```text
 $ git clone git@github.com:username/Project-Sample.git
 $ cd Project-Sample
-$ git remote add upstream https://github.com/Code-and-Response/Project-Sample.git
+$ git remote add upstream https://github.com/Call-for-Code/Project-Sample.git
 $ git fetch upstream
 ```
 
@@ -144,7 +144,7 @@ please do proper word-wrap and keep columns shorter than about
 72 characters or so. That way, `git log` will show things
 nicely even when it is indented.
 
-Fixes: https://github.com/Code-and-Response/Project-Sample/issues/1337
+Fixes: https://github.com/Call-for-Code/Project-Sample/issues/1337
 Refs: http://eslint.org/docs/rules/space-in-parens.html
 ```
 
@@ -365,7 +365,7 @@ commit.
 ### Approving a change
 
 Any Project Sample core Collaborator (any GitHub user with commit rights in the
-`Code-and-Response/Project-Sample` repository) is authorized to approve any other contributor's
+`Call-for-Code/Project-Sample` repository) is authorized to approve any other contributor's
 work. Collaborators are not permitted to approve their own Pull Requests.
 
 Collaborators indicate that they have reviewed and approve of the changes in
@@ -486,6 +486,6 @@ longer to be merged in.
 If you want to know more about the code review and the landing process, see the
 [Collaborator Guide][].
 
-[Code of Conduct]: https://github.com/Code-and-Response/Project-Sample/doc/guides/coc.md
+[Code of Conduct]: https://github.com/Call-for-Code/Project-Sample/doc/guides/coc.md
 [Collaborator Guide]: ../../../CONTRIBUTING.md
-[Project Sample Slack workspace]: https://code-and-response.slack.com/join/shared_invite/enQtNzUzOTAzNDE3MTM4LWM4M2VlOTA3OWNjMjY0ZTI4MjQ2OTBjYjYwNmQ1NTdhYjZhODE5NjFkN2QyNmRkNDI5OTFlZmVjYTFhMmMwYmU
+[Project Sample Slack workspace]: https://callforcode.org/slack
