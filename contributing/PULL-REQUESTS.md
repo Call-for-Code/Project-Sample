@@ -486,6 +486,6 @@ longer to be merged in.
 If you want to know more about the code review and the landing process, see the
 [Collaborator Guide][].
 
-[Code of Conduct]: https://github.com/Call-for-Code/Project-Sample/doc/guides/coc.md
+[Code of Conduct]: ../../../CONTRIBUTING.md#code-of-conduct
 [Collaborator Guide]: ../../../CONTRIBUTING.md
 [Project Sample Slack workspace]: https://callforcode.org/slack
