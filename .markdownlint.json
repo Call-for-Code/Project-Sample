@@ -3,6 +3,5 @@
   "MD026": false,
   "MD029": false,
   "MD032": false,
-  "MD013": { "line_length": 500 }
-
+  "MD013": { "line_length": 500 },
 }
