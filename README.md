@@ -1,6 +1,6 @@
-# Submission name
+# Submission or project name
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://call-for-code.github.io/Project-Sample/)
 
 A basic GitHub repository example for new Call for Code projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need.
 
@@ -39,7 +39,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
 ## The architecture
 
@@ -90,7 +90,7 @@ And repeat
 
 ```bash
 curl localhost:3000
-Thanks for looking at Code-and-Response!
+Thanks for looking at Call for Code!
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
@@ -144,7 +144,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Call-for-Code/Project-Sample/graphs/contributors) who participated in this project.
 
 ## License
 
