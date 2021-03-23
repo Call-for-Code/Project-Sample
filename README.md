@@ -56,6 +56,16 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Project roadmap
 
+The project currently does the following things. 
+
+* Feature 1
+* Feature 2
+* Feature 3
+
+It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
+
+See below for our proposed schedule on next steps after Call for Code 2021 submission.
+
 ![Roadmap](roadmap.jpg)
 
 ## Getting started
@@ -64,19 +74,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install the example command line script for this project:
 
 ```bash
-dnf install wget
 wget http://www.example.com/install.sh
 bash install.sh
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be, for example
+Create an [IBM Cloud account and register for Call for Code](https://developer.ibm.com/callforcode/get-started/). 
+
+Say what the step will be, for example.
 
 ```bash
 export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
@@ -93,15 +104,15 @@ curl localhost:3000
 Thanks for looking at Call for Code!
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+End with an example of getting some data out of the system or using it for a little demo.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Explain how to run the automated tests for this system.
 
 ### Break down into end to end tests
 
-Explain what these tests test and why, if you were using something like `mocha` for instance
+Explain what these tests test and why, if you were using something like `mocha` for instance:
 
 ```bash
 npm install mocha --save-dev
@@ -111,7 +122,7 @@ vi test/test.js
 
 ### And coding style tests
 
-Explain what these tests test and why, if you chose `eslint` for example
+Explain what these tests test and why, if you chose `eslint` for example:
 
 ```bash
 npm install eslint --save-dev
@@ -121,7 +132,7 @@ npx eslint sample-file.js
 
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
 
 ## Built with
 
@@ -148,7 +159,7 @@ See also the list of [contributors](https://github.com/Call-for-Code/Project-Sam
 
 ## License
 
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
