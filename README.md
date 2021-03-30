@@ -159,8 +159,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 - **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/Call-for-Code/Project-Sample/graphs/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
