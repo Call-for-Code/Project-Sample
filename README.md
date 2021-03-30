@@ -4,7 +4,7 @@
 
 A basic GitHub repository example for new Call for Code projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need.
 
-*Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
+_Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md)._
 
 ## Contents
 
@@ -27,7 +27,7 @@ A basic GitHub repository example for new Call for Code projects and those that 
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time,  keeping them engaged, entertained, and on top of their education is important.
+Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time, keeping them engaged, entertained, and on top of their education is important.
 
 ### How can technology help?
 
@@ -56,11 +56,11 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Project roadmap
 
-The project currently does the following things. 
+The project currently does the following things.
 
-* Feature 1
-* Feature 2
-* Feature 3
+- Feature 1
+- Feature 2
+- Feature 3
 
 It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
 
@@ -85,7 +85,7 @@ bash install.sh
 
 A step by step series of examples that tell you how to get a development env running.
 
-Create an [IBM Cloud account and register for Call for Code](https://developer.ibm.com/callforcode/get-started/). 
+Create an [IBM Cloud account and register for Call for Code](https://developer.ibm.com/callforcode/get-started/).
 
 Say what the step will be, for example.
 
@@ -136,12 +136,12 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 
 ## Built with
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
+- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
+- [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
+- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [Maven](https://maven.apache.org/) - Dependency management
+- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
@@ -153,7 +153,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
+</a>
+
+- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/Call-for-Code/Project-Sample/graphs/contributors) who participated in this project.
 
@@ -163,4 +167,4 @@ This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE)
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
