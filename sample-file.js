@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 Daniel Krook
+ * Copyright 2020-2021 Daniel Krook
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,9 +26,9 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Thanks for looking at Code-and-Response!');
+  res.end('Thanks for looking at Call for Code!');
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Example Server running at http://${hostname}:${port}/`);
+  console.log(`Example server running at http://${hostname}:${port}/`);
 });
