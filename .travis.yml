@@ -1,7 +1,0 @@
-sudo: 'required'
-
-before_install:
-  - npm install markdownlint-cli -g
-
-script:
-  - 'markdownlint --config .markdownlint.json README.md'

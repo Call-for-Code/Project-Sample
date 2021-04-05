@@ -4,7 +4,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fr
 
 Mauris odio ante, rhoncus et varius vel, vulputate et enim. Aliquam erat volutpat. Proin lacinia libero velit, a dictum sapien ultricies quis. Vivamus dolor nibh, efficitur in ipsum vitae, faucibus eleifend felis. Praesent consectetur turpis sit amet lorem tempor cursus. Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
 
-[Project website](https://code-and-response.github.io/Project-Sample/)
+[Project website](https://call-for-code.github.io/Project-Sample/)
 
 ## Section 1
 
