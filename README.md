@@ -70,65 +70,10 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ## Getting started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+In this section you add instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production on IBM Cloud.
 
-### Prerequisites
-
-Install the example command line script for this project:
-
-```bash
-wget http://www.example.com/install.sh
-bash install.sh
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Create an [IBM Cloud account and register for Call for Code](https://developer.ibm.com/callforcode/get-started/).
-
-Say what the step will be, for example.
-
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Call for Code!
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Running the tests
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instance:
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example:
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
+- Project Setup
+  - [sample-react-app](./sample-react-app/README.md)
 
 ## Live demo
 
