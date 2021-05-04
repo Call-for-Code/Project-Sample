@@ -4,7 +4,7 @@
 
 A basic GitHub repository example for new Call for Code projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need.
 
-_Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md)._
+_Read this in other languages: [English](README.md), [한국어](./docs/README.ko.md), [português](./docs/README.pt_br.md)._
 
 ## Contents
 
@@ -14,7 +14,6 @@ _Read this in other languages: [English](README.md), [한국어](README.ko.md), 
 1. [Long description](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
-1. [Running the tests](#running-the-tests)
 1. [Live demo](#live-demo)
 1. [Built with](#built-with)
 1. [Contributing](#contributing)
@@ -52,7 +51,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Long description
 
-[More detail is available here](DESCRIPTION.md)
+[More detail is available here](./docs/DESCRIPTION.md)
 
 ## Project roadmap
 
@@ -66,7 +65,7 @@ It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run o
 
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
-![Roadmap](roadmap.jpg)
+![Roadmap](./images/roadmap.jpg)
 
 ## Getting started
 
