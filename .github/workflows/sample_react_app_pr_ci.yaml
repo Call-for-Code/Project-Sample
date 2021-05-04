@@ -5,7 +5,7 @@ name: Sample React App CI
 
 on:
   pull_request:
-    branches: [ add-react-app ]
+    branches: [ main ]
 
 jobs:
   build_web_app:
