@@ -26,7 +26,7 @@ Instructions to run the Sample React App;
 ### Run the Sample React App on IBM Cloud
 #### Pre-requisites
 1. IBM Cloud Account:
-    - [Create free IBM Cloud account](https://cloud.ibm.com/registration)
+    - [Create free IBM Cloud account with $200 USD in credits](https://developer.ibm.com/callforcode/get-started/)
 
 #### Build the App for production
 - Start a terminal/CMD in `~/Project-Sample/sample-react-app` directory.
