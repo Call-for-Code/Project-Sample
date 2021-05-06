@@ -4,7 +4,7 @@
 
 A basic GitHub repository example for new [Call for Code](https://developer.ibm.com/callforcode/) projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need. And don't forget to [register for Call for Code 2021](https://developer.ibm.com/callforcode/get-started/)!
 
-_Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md)._
+_Read this in other languages: [English](README.md), [한국어](./docs/README.ko.md), [português](./docs/README.pt_br.md)._
 
 ## Contents
 
@@ -14,7 +14,6 @@ _Read this in other languages: [English](README.md), [한국어](README.ko.md), 
 1. [Long description](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
-1. [Running the tests](#running-the-tests)
 1. [Live demo](#live-demo)
 1. [Built with](#built-with)
 1. [Contributing](#contributing)
@@ -52,7 +51,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Long description
 
-[More detail is available here](DESCRIPTION.md)
+[More detail is available here](./docs/DESCRIPTION.md)
 
 ## Project roadmap
 
@@ -66,69 +65,14 @@ It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run o
 
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
-![Roadmap](roadmap.jpg)
+![Roadmap](./images/roadmap.jpg)
 
 ## Getting started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-### Prerequisites
-
-Install the example command line script for this project:
-
-```bash
-wget http://www.example.com/install.sh
-bash install.sh
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Create an [IBM Cloud account and register for Call for Code](https://developer.ibm.com/callforcode/get-started/).
-
-Say what the step will be, for example.
-
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Call for Code!
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Running the tests
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instance:
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example:
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
+- [sample-react-app](./sample-react-app/README.md)
+- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
 
 ## Live demo
 

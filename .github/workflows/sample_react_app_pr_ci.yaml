@@ -1,0 +1,28 @@
+# This workflow will do a clean install, test and build of sample react app for every pull request to main branch.
+# For more information on using git action workflow for Node JS see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Sample React App CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_web_app:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./sample-react-app
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14'
+    - name: Install node dependencies, execute tests and build the project
+      run: |
+        npm install
+        npm run test:nowatch
+        npm run build
+  
