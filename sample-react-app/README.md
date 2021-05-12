@@ -37,6 +37,6 @@ A production ready app's build folder with all dependencies will be created in t
 
 #### Deploy the App on IBM Cloud
 
-The App can deployed on IBM Cloud for free with following two services;
+The App can deployed on IBM Cloud for free with following two free services;
 1. [IBM Cloud Object Storage](./docs/IBM_CLOUD_OBJECT_STORAGE_DEPLOYMENT.md)
 2. [IBM Cloud Foundry](./docs/IBM_CLOUD_FOUNDRY_DEPLOYMENT.md)
