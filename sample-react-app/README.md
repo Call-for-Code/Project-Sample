@@ -35,7 +35,7 @@ Instructions to run the Sample React App;
 
 A production ready app's build folder with all dependencies will be created in the `~/Project-Sample/sample-react-app/build` directory.
 
-### Deploy the App on IBM Cloud
+#### Deploy the App on IBM Cloud
 
 The App can deployed on IBM Cloud for free with following two services;
 1. [IBM Cloud Object Storage](./docs/IBM_CLOUD_OBJECT_STORAGE_DEPLOYMENT.md)
