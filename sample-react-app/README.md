@@ -6,7 +6,7 @@ Sample React App is a simple react web app that can be used as a template/starti
 
 Instructions to run the Sample React App;
 1. [Local Development](#run-the-sample-react-app-for-local-development)
-2. [IBM Cloud](#run-the-sample-react-app-on-IBM-cloud)
+2. [IBM Cloud](#run-the-sample-react-app-on-IBM-cloud-for-free)
 
 ### Run the Sample React App for local development
 #### Pre-requisites
