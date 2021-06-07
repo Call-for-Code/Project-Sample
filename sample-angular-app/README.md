@@ -1,4 +1,4 @@
-[![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud)
+[![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-angular-app-funny-oribi.mybluemix.net/)
 
 # Getting Started with Sample Angular App
 
