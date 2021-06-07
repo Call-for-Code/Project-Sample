@@ -8,19 +8,24 @@ _Read this in other languages: [English](README.md), [한국어](./docs/README.k
 
 ## Contents
 
-1. [Short description](#short-description)
-1. [Demo video](#demo-video)
-1. [The architecture](#the-architecture)
-1. [Long description](#long-description)
-1. [Project roadmap](#project-roadmap)
-1. [Getting started](#getting-started)
-1. [Live demo](#live-demo)
-1. [Built with](#built-with)
-1. [Contributing](#contributing)
-1. [Versioning](#versioning)
-1. [Authors](#authors)
-1. [License](#license)
-1. [Acknowledgments](#acknowledgments)
+- [Submission or project name](#submission-or-project-name)
+  - [Contents](#contents)
+  - [Short description](#short-description)
+    - [What's the problem?](#whats-the-problem)
+    - [How can technology help?](#how-can-technology-help)
+    - [The idea](#the-idea)
+  - [Demo video](#demo-video)
+  - [The architecture](#the-architecture)
+  - [Long description](#long-description)
+  - [Project roadmap](#project-roadmap)
+  - [Getting started](#getting-started)
+  - [Live demo](#live-demo)
+  - [Built with](#built-with)
+  - [Contributing](#contributing)
+  - [Versioning](#versioning)
+  - [Authors](#authors)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
 
 ## Short description
 
@@ -72,6 +77,7 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
 - [sample-react-app](./sample-react-app/README.md)
+- [sample-angular-app](./sample-angular-app/README.md)
 - [Explore other projects](https://github.com/upkarlidder/ibmhacks)
 
 ## Live demo
