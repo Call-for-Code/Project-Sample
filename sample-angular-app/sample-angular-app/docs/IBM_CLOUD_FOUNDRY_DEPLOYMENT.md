@@ -1,6 +1,6 @@
 ### Deploy the App on [IBM Cloud Foundry](https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started)
 
-To deploy your react app on [IBM Cloud Foundry](https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started) follow the steps;
+To deploy your angular app on [IBM Cloud Foundry](https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started) follow the steps;
 
 - Install [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started).
 - Start a terminal/CMD in `~/Project-Sample/sample-angular-app/dist/sample-angular-app` directory.
@@ -15,3 +15,5 @@ To deploy your react app on [IBM Cloud Foundry](https://cloud.ibm.com/docs/cloud
 
 ### Important Notes:
 - If your Cloud Foundry service is Lite/Free plan then it sleeps after 10 days of development inactivity. Keep your Cloud Foundry service active by re-deploying your app once every 10 days. You can automate the re-deploy process using [Git Actions `schedule` event](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule).
+
+- To deploy any updates or re-deploy your the app for the same Cloud Foundry instance, you can use the command `ibmcloud cf push APP-NAME`.

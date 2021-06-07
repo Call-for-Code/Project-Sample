@@ -28,7 +28,7 @@ Instructions to run the Sample Angular App;
 
 #### Build the App for production
 - Start a terminal/CMD in `~/Project-Sample/sample-angular-app` directory.
-- Execute command `npm install` and `npm run build`.
+- Execute command `npm install` and `npm run build-prod`.
 
 A production ready, optimized app dist folder with all dependencies will be created in the `~/Project-Sample/sample-angular-app/dist/sample-angular-app` directory.
 
