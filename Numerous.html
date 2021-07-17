@@ -1,0 +1,40 @@
+<html><head><title>numerous</title></head>
+<body><form><label for="name">Name:</label>
+<input type="text" id="name"></input>
+<label for="item_name">Item_name:</label>
+<input type="text" id="item_name"></input>
+<label for="item_weight">item_weight:</label>
+<input type="text" id="item_weight"></input>
+<label for="from_addr">Sender's Address:</label>
+<input type="text" id="from_addr"></input>
+<label for="receiver_num1">receiver's number1:</label>
+<input type="text" id="receiver_num1"></input>
+<label for="receiver_num2">receiver's number2:</label>
+<input type="text" id="receiver_num2"></input>
+
+<input type="reset" id="reset" target="get">reset</input>
+<input type="submit" id="submit" target="get">submit</input>
+
+<APPLET CODE="main.class">
+import com.twilio.Twilio;
+import com.twilio.rest.api.v2010.account.Message;
+import com.twilio.type.PhoneNumber;
+
+public class Example {
+    // Find your Account SID and Auth Token at twilio.com/console
+    // and set the environment variables. See http://twil.io/secure
+    public static final String ACCOUNT_SID = System.getenv("AC2eafcafe57f1e5ae384bedc2e431818f");
+    public static final String AUTH_TOKEN = System.getenv("53320606d90af8f960f99b9b00a8dfe6");
+
+    public static void main(String[] args) {
+        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+        Message message = Message.creator(
+                new com.twilio.type.PhoneNumber(receiver_num1),
+                new com.twilio.type.PhoneNumber(receiver_num2),
+                "This is numerous to send you from"+name+"to transport"+item_name+"of weight"+item_weight+"from address"+from_addr)
+            .create();
+
+        System.out.println(message.getSid());
+    }
+}
+</APPLET></body></html>
