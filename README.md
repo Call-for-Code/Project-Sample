@@ -20,14 +20,7 @@ _Read this in other languages: [English](README.md), [한국어](./docs/README.k
   - [The architecture](#the-architecture)
   - [Long description](#long-description)
   - [Project roadmap](#project-roadmap)
-  - [Getting started](#getting-started)
-  - [Live demo](#live-demo)
-  - [Built with](#built-with)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
+  
 
 ## Short description
 
