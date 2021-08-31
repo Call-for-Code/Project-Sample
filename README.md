@@ -86,7 +86,7 @@ In this section you add the instructions to run your project on your local machi
 
 You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
 
-See the "long description" field in our submission for the log-in credentials.
+See the "long description" field in our submission (not in this repo) for the log-in credentials.
 
 ## Built with
 
