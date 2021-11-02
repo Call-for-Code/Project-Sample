@@ -1,0 +1,20 @@
+pipeline {
+  environment {
+    registry = "vinod9782/inspired"
+    registryCredential = 'dockerhub'
+    dockerImage = ''
+  }    
+  agent any
+  tools {maven "maven363" }
+  stages {
+    stage('Cloning Git') {
+      steps {
+        git 'https://github.com/hrmanth/game-of-life.git'
+      }
+    }
+        stage('Build'){
+            steps{
+                 sh script: 'mvn clean package'
+         }
+       }
+}}
