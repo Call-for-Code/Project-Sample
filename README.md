@@ -1,4 +1,3 @@
-I am Lokesh
 
 # Submission or project name
 
