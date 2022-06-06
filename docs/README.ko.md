@@ -4,5 +4,5 @@
 
 A basic GitHub repository example for Call for Code projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need.
 
-*Read this in other languages: [English](../README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
+*Read this in other languages: [English](../README.md), [한국어](README.ko.md), [português](README.pt_br.md), [中文](./docs/README.zh.md).*
 
