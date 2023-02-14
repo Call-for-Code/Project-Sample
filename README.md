@@ -1,55 +1,80 @@
-# Submission or project name
-
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
 
-A basic GitHub repository example for new [Call for Code](https://developer.ibm.com/callforcode/) projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need. And don't forget to [join the Call for Code community](https://developer.ibm.com/callforcode/solutions/projects/get-started/).
+_INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
 
-> If you're new to open source, please consider taking the [free "Introduction to Open Source" class](https://cognitiveclass.ai/courses/introduction-to-open-source).
-> 
-> [![Open Source Foundations](images/open-source-foundations.png)](https://cognitiveclass.ai/courses/introduction-to-open-source)
+_New to Git and GitHub? This free online course will get you up to speed quickly[: Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_
 
 _Read this in other languages: [English](README.md), [한국어](./docs/README.ko.md), [português](./docs/README.pt_br.md), [中文](./docs/README.zh.md)._ 
 
-## Contents
+# Replace this heading with your submission name
 
-- [Submission or project name](#submission-or-project-name)
-  - [Contents](#contents)
-  - [Short description](#short-description)
-    - [What's the problem?](#whats-the-problem)
-    - [How can technology help?](#how-can-technology-help)
-    - [The idea](#the-idea)
-  - [Demo video](#demo-video)
-  - [The architecture](#the-architecture)
-  - [Long description](#long-description)
-  - [Project roadmap](#project-roadmap)
-  - [Getting started](#getting-started)
+- [Project summary](#project-summary)
+  - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
+  - [How our technology solution can help](#how-our-technology-solution-can-help)
+  - [Our idea](#our-idea)
+- [Technology implementation](#technology-implementation)
+  - [IBM AI service(s) used](#ibm-ai-services-used)
+  - [Other IBM technology used](#other-ibm-technology-used)
+- [Presentation materials](#presentation-materials)
+  - [Solution demo video](#solution-demo-video)
+  - [Solution architecture](#solution-architecture)
+  - [Project development roadmap](#project-development-roadmap)
+  - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
-  - [Built with](#built-with)
+- [About this template](#about-this-template)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
   - [Authors](#authors)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
+  
+
+_INSTRUCTIONS: Complete all required deliverable sections below._
  
-## Short description
+## Project summary
 
-### What's the problem?
+### The issue we are hoping to solve
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time, keeping them engaged, entertained, and on top of their education is important.
+REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainaiblity problem your solution is meant to address. 
 
-### How can technology help?
+### How our technology solution can help
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
 
-### The idea
+### Our idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
 
-## Demo video
+More detail is available in our [description document](./docs/DESCRIPTION.md).
+
+## Technology implementation
+
+### IBM AI service(s) used
+
+_INSTRUCTIONS: Remove any services you did not use. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation, and remove these instructions._
+
+- IBM Natural Language Understanding (https://cloud.ibm.com/catalog/services/natural-language-understanding) - HOW THIS IS USED IN OUR SOLUTION
+- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - HOW THIS IS USED IN OUR SOLUTION
+- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - HOW THIS IS USED IN OUR SOLUTION
+- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - HOW THIS IS USED IN OUR SOLUTION
+- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - HOW THIS IS USED IN OUR SOLUTION
+- LIST ADDITIONAL EMBEDDABLE AI SERVICES FROM GUIDED PROJECTS?
+- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+
+### Other IBM technology used
+INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component ws used. If you can provide links to exactly where these were used in your code, that would help the judges review your submission.
+
+## Presentation materials
+
+_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://developer.ibm.com/callforcode/global-challenge/participate), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+
+### Solution demo video
 
 [![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The architecture
+### Solution architecture
+
+Diagram and step-by-step description of the flow of our solution:
 
 ![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
 
@@ -58,11 +83,7 @@ It's imperative that learning and creating can continue when educational institu
 3. Watson Translation (optionally) can translate the text to the desired language.
 4. The app stores the translated text as a document within Object Storage.
 
-## Long description
-
-[More detail is available here](./docs/DESCRIPTION.md)
-
-## Project roadmap
+### Project development roadmap
 
 The project currently does the following things.
 
@@ -70,44 +91,41 @@ The project currently does the following things.
 - Feature 2
 - Feature 3
 
-It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
+In the future we plan to...
 
-See below for our proposed schedule on next steps after Call for Code 2021 submission.
+See below for our proposed schedule on next steps after Call for Code 2023 submission.
 
 ![Roadmap](./images/roadmap.jpg)
 
-## Getting started
 
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+_INSTRUCTIONS: The following deliverables are suggested, but optional. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
+
+### How to run the project
+
+INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
 - [sample-react-app](./sample-react-app/)
 - [sample-angular-app](./sample-angular-app/)
 - [Explore other projects](https://github.com/upkarlidder/ibmhacks)
 
-## Live demo
+### Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
+You can find a running system to test at...
 
-See the "long description" field in our submission (not in this repo) for the log-in credentials.
+See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
-## Built with
 
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-- [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## About this template
 
-## Contributing
+### Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+### Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## Authors
+### Authors
 
 <a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
@@ -115,10 +133,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 - **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
-## License
+### License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+### Acknowledgments
 
 - Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
