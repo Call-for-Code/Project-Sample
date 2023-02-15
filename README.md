@@ -13,9 +13,9 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
 - [Technology implementation](#technology-implementation)
   - [IBM AI service(s) used](#ibm-ai-services-used)
   - [Other IBM technology used](#other-ibm-technology-used)
+  - [Solution architecture](#solution-architecture)
 - [Presentation materials](#presentation-materials)
   - [Solution demo video](#solution-demo-video)
-  - [Solution architecture](#solution-architecture)
   - [Project development roadmap](#project-development-roadmap)
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
@@ -62,14 +62,6 @@ _INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove 
 ### Other IBM technology used
 INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
 
-## Presentation materials
-
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://developer.ibm.com/callforcode/global-challenge/participate), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
-### Solution demo video
-
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
-
 ### Solution architecture
 
 Diagram and step-by-step description of the flow of our solution:
@@ -80,6 +72,15 @@ Diagram and step-by-step description of the flow of our solution:
 2. Watson Speech to Text processes the audio and extracts the text.
 3. Watson Translation (optionally) can translate the text to the desired language.
 4. The app stores the translated text as a document within Object Storage.
+
+## Presentation materials
+
+_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://developer.ibm.com/callforcode/global-challenge/participate), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+
+### Solution demo video
+
+[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+
 
 ### Project development roadmap
 
