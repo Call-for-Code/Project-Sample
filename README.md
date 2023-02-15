@@ -1,12 +1,10 @@
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
 
-_INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
+_INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Fork or Clone this repository to start entering content for your own Call for Code submission project. Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
 
-_New to Git and GitHub? This free online course will get you up to speed quickly[: Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_
+_New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
 
-_Read this in other languages: [English](README.md), [한국어](./docs/README.ko.md), [português](./docs/README.pt_br.md), [中文](./docs/README.zh.md)._ 
-
-# Replace this heading with your submission name
+# Replace this heading with your team/submission name
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -19,6 +17,7 @@ _Read this in other languages: [English](README.md), [한국어](./docs/README.k
   - [Solution demo video](#solution-demo-video)
   - [Solution architecture](#solution-architecture)
   - [Project development roadmap](#project-development-roadmap)
+- [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
 - [About this template](#about-this-template)
@@ -51,18 +50,17 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Remove any services you did not use. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation, and remove these instructions._
+_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
 
-- IBM Natural Language Understanding (https://cloud.ibm.com/catalog/services/natural-language-understanding) - HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - HOW THIS IS USED IN OUR SOLUTION
-- LIST ADDITIONAL EMBEDDABLE AI SERVICES FROM GUIDED PROJECTS?
+- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 - List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
 
 ### Other IBM technology used
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to exactly where these were used in your code, that would help the judges review your submission.
+INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
 
 ## Presentation materials
 
@@ -97,16 +95,13 @@ See below for our proposed schedule on next steps after Call for Code 2023 submi
 
 ![Roadmap](./images/roadmap.jpg)
 
+## Additional details
 
-_INSTRUCTIONS: The following deliverables are suggested, but optional. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
+_INSTRUCTIONS: The following deliverables are suggested, but <strong>optional</strong>. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
 
 INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-- [sample-react-app](./sample-react-app/)
-- [sample-angular-app](./sample-angular-app/)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
 
 ### Live demo
 
@@ -114,6 +109,9 @@ You can find a running system to test at...
 
 See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
+---
+
+_INSTRUCTIONS: You can remove the below section from your specific project README._
 
 ## About this template
 
