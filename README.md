@@ -35,7 +35,7 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainaiblity problem your solution is meant to address. 
+REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address. 
 
 ### How our technology solution can help
 
@@ -62,7 +62,7 @@ _INSTRUCTIONS: Remove any services you did not use. Leave only those included in
 - List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
 
 ### Other IBM technology used
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component ws used. If you can provide links to exactly where these were used in your code, that would help the judges review your submission.
+INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to exactly where these were used in your code, that would help the judges review your submission.
 
 ## Presentation materials
 
