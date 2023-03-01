@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
 
 _INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Use the **Use this template** button to create a new version of this repository and start entering content for your own Call for Code submission project. Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
 
@@ -26,15 +26,14 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [Authors](#authors)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
-  
 
 _INSTRUCTIONS: Complete all required deliverable sections below._
- 
+
 ## Project summary
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address. 
+REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
 
 ### How our technology solution can help
 
@@ -60,6 +59,7 @@ _INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove 
 - List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
 
 ### Other IBM technology used
+
 INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
 
 ### Solution architecture
@@ -75,12 +75,11 @@ Diagram and step-by-step description of the flow of our solution:
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://developer.ibm.com/callforcode/global-challenge/participate), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
 
 ### Solution demo video
 
 [![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
-
 
 ### Project development roadmap
 
