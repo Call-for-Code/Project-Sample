@@ -1,9 +1,9 @@
-{
+({
   "name": "sample-angular-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve",  "comment"
     "build": "ng build",
     "build-prod": "ng build --prod",
     "test": "ng test",
@@ -41,6 +41,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
+    "typescript": "~4.0.2"  
   }
 }
