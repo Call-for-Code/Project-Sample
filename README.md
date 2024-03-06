@@ -15,7 +15,7 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [How our technology solution can help](#how-our-technology-solution-can-help)
   - [Our idea](#our-idea)
 - [Technology implementation](#technology-implementation)
-  - [IBM AI service(s) used](#ibm-ai-services-used)
+  - [IBM watsonx product(s) used](#ibm-ai-services-used)
   - [Other IBM technology used](#other-ibm-technology-used)
   - [Solution architecture](#solution-architecture)
 - [Presentation materials](#presentation-materials)
