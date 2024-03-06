@@ -61,7 +61,7 @@ _INSTRUCTIONS: Included here is a list of IBM watsonx products. Remove any produ
 
 - [watsonx.governance](https://www.ibm.com/products/watsonx-governance) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 
-- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 
 ### Other IBM technology used
 
