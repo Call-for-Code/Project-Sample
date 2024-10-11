@@ -30,7 +30,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/src/ui/concious-connect" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "/src/ui/concious-connect/dist" # Built app content directory - optional
+          # output_location: "/src/ui/concious-connect/dist" # Built app content directory - optional
           app_build_command: 'npx expo export --platform web'
           ###### End of Repository/Build Configurations ######
 
