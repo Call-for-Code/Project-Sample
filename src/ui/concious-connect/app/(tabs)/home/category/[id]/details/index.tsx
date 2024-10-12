@@ -3,7 +3,7 @@ import { StyleSheet, View, ScrollView, Text, Platform, StatusBar } from 'react-n
 import { CategoryContext } from '@/app/CategoryContext';
 import { } from 'react-native';
 import { Stack, useGlobalSearchParams } from "expo-router";
-import Markdown  from 'react-native-markdown-display'
+import Markdown from 'react-native-markdown-display'
 
 
 
@@ -16,15 +16,12 @@ export default function CategoryScreen() {
 
     const detail = category?.items.find((item) => item.id === detailId)
     return (
-        <View>
-            <ScrollView contentInsetAdjustmentBehavior="automatic"
+        <ScrollView contentInsetAdjustmentBehavior="automatic"
             contentContainerStyle={styles.itemContainer}>
-                <Stack.Screen options={{ headerTitle: `Category: ${category?.name} ` }} />
-                <Text style={styles.itemName}>About {detail?.name}:</Text>
-                {/* <Text style={styles.itemContainer}>{detail?.description}</Text> */}
-                <Markdown>{detail?.description}</Markdown>
-            </ScrollView>
-        </View>
+            <Stack.Screen options={{ headerTitle: `Category: ${category?.name} ` }} />
+            <Text style={styles.itemName}>About {detail?.name}:</Text>            
+            <Markdown>{detail?.description}</Markdown>
+        </ScrollView>
     );
 }
 
@@ -34,10 +31,9 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: '#000',
         fontWeight: 'bold',//'600',
-        //padding: 5,
     },
     itemContainer: {
-        //flexWrap :'nowrap',
+        flexWrap :'nowrap',
         padding: 10,
         justifyContent: 'space-evenly',
     }

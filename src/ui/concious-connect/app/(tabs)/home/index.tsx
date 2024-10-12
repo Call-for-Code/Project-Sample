@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     flexDirection: "row",
     paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+    justifyContent: 'center',
   },
   itemContainer: {
     justifyContent: 'flex-end',
