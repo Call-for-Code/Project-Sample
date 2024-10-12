@@ -1,14 +1,11 @@
 import React, { useContext } from 'react';
 import { useEffect } from 'react';
-import { useRouter, useNavigation, Stack } from 'expo-router';
-import { StyleSheet, View, Text, Platform, StatusBar, TouchableOpacity, Pressable } from 'react-native';
+import { useRouter } from 'expo-router';
+import { StyleSheet, ScrollView, Text, Platform, StatusBar, Pressable } from 'react-native';
 import { SimpleGrid } from 'react-native-super-grid';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import { AppStyle } from '@/styles/AppStyles';
-import { } from 'react-native';
-
 import { CategoryContext } from '@/app/CategoryContext';
-
 
 export default function HomeScreen() {
   const router = useRouter();
@@ -18,23 +15,25 @@ export default function HomeScreen() {
   const [dim, setdim] = React.useState(200)
 
   return (
-    <SimpleGrid
-      itemDimension={130}
-      data={conciousData.categories}
-      style={styles.gridView}
-      staticDimension={dim}
-      // fixed
-      // horizontal
-      spacing={10}
-      renderItem={({ item }) => (
-        <Pressable
-          style={[styles.itemContainer, { backgroundColor: AppStyle.appTheme.backgroundColor }]}
-          onPress={() => router.push({ pathname: '/(tabs)/home/category/[id]', params: { id: item.id } })}>
-          <FontAwesome5 name={item.icon} size={32} color="white" />
-          <Text style={styles.itemName}>{item.name}</Text>
-        </Pressable >
-      )} listKey={undefined}
-    />
+    <ScrollView contentContainerStyle={{ justifyContent: 'flex-start' }}>
+      <SimpleGrid
+        itemDimension={130}
+        data={conciousData.categories}
+        style={styles.gridView}
+        staticDimension={dim}
+        // fixed
+        // horizontal
+        spacing={10}
+        renderItem={({ item }) => (
+          <Pressable
+            style={[styles.itemContainer, { backgroundColor: AppStyle.appTheme.backgroundColor }]}
+            onPress={() => router.push({ pathname: '/(tabs)/home/category/[id]', params: { id: item.id } })}>
+            <FontAwesome5 name={item.icon} size={32} color="white" />
+            <Text style={styles.itemName}>{item.name}</Text>
+          </Pressable >
+        )} listKey={undefined}
+      />
+    </ScrollView>
   );
 }
 
@@ -56,7 +55,7 @@ const styles = StyleSheet.create({
   itemName: {
     fontSize: 16,
     color: '#fff',
-    fontWeight: '600',    
+    fontWeight: '600',
   },
   itemCode: {
     fontWeight: '600',
