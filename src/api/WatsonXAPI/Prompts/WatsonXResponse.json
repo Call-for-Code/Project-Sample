@@ -1,0 +1,21 @@
+{
+    "model_id": "meta-llama/llama-3-8b-instruct",
+    "created_at": "2024-10-10T19:21:14.391Z",
+    "results": [
+      {
+        "generated_text": "",
+        "generated_token_count": 350,
+        "input_token_count": 568,
+        "stop_reason": "eos_token"
+      }
+    ],
+    "system": {
+      "warnings": [
+        {
+          "message": "This model is a Non-IBM Product governed by a third-party license that may impose use restrictions and other obligations. By using this model you agree to its terms as identified in the following URL.",
+          "id": "disclaimer_warning",
+          "more_info": "https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-models.html?context=wx"
+        }
+      ]
+    }
+  }

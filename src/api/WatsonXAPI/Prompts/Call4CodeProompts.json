@@ -1,0 +1,100 @@
+{
+    "version": "1.0",
+    "generatedAt": "",
+    "categories": [
+        {
+            "id" : "1",
+            "name": "Food",
+            "icon": "hamburger",
+            "items": [
+                {
+                    "id" : "1",
+                    "name": "Food Drive Donations",
+                    "prompt": "donate food to less fortunate people",
+                    "description": ""
+                },
+                {
+                    "id" : "2",
+                    "name": "Meal Preparation",
+                    "prompt": "volunteer for meal preparation for less fortunate people",
+                    "description": ""
+                },
+                {
+                    "id" : "3",
+                    "name": "Meal Delivery",
+                    "prompt": "volunteer for meal delivery to less fortunate people",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id" : "2",
+            "name": "Pets",
+            "icon": "dog",
+            "items": [
+                {
+                    "id" : "1",
+                    "name": "Pet Foster Parents",
+                    "prompt": "volunteer to foster pets",
+                    "description": ""
+                },
+                {
+                    "id" : "2",
+                    "name": "Dog Walker",
+                    "prompt": "volunteer to walk dogs",
+                    "description": ""
+                },
+                {
+                    "id" : "3",
+                    "name": "Animal Essential Care",
+                    "prompt": "volunteer to provide essential care for pets",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id" : "3",
+            "name": "Household",
+            "icon": "home",
+            "items": [
+                {
+                    "id" : "1",
+                    "name": "Second Hand Donations",
+                    "prompt": "donate second-hand clothing from my home",
+                    "description": ""
+                },
+                {
+                    "id" : "2",
+                    "name": "Electronics Recycling",
+                    "prompt": "recycle old electronics and batteries",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id" : "4",
+            "name": "Time",
+            "icon": "calendar-alt",
+            "items": [
+                {
+                    "id" : "1",
+                    "name": "Mentoring",
+                    "prompt": "volunteer to mentor underprivileged youth",
+                    "description": ""
+                },
+                {
+                    "id" : "2",
+                    "name": "Senior Citizen Care",
+                    "prompt": "volunteer to care for senior citizens",
+                    "description": ""
+                },
+                {
+                    "id" : "3",
+                    "name": "Greenspace Cleanup",
+                    "prompt": " volunteer to clean up parks and greenspaces",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

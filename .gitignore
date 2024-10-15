@@ -12,6 +12,10 @@ npm-debug.*
 *.orig.*
 web-build/
 *:Zone.Identifier
+bin/
+obj/
+**/secrets/ibmc4capi2024.json
+
 
 # macOS
 .DS_Store
