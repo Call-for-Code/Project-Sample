@@ -8,7 +8,7 @@ Use the **Use this template** button to create a new version of this repository 
 
 _New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
 
-# Replace this heading with your team/submission name
+# Conscious Connector
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -37,7 +37,7 @@ _INSTRUCTIONS: Below are the suggested sections to include in your README file t
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+Conscious Connector offers conscientious volunteering and sustainable living opportunities to help users give more meaning to how they spend their time.  The app suggests activities across various categories with the aim of addressing the growing trend of people spending their time in unproductive or environmentally harmful ways.
 
 ### How our technology solution can help
 
@@ -45,9 +45,38 @@ REPLACE THIS SENTENCE with a short description of your team's solution, in about
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+Conscious Connector is a mobile application designed to connect users with meaningful and purpose-driven volunteering, and sustainable living activities.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+In a world filled with distractions, our free time can often be squandered.  Conscious Connector empowers individuals to engage in activities benefiting their local communities, and ultimately the world at large. The app provides curated volunteering suggestions organized into themed categories, such as food, pets, and home, and sustainable energy use.
+
+Leveraging advanced AI capabilities through IBM's WatsonX AI, the app generates location-specific recommendations that have a measurable impact on the community.
+
+#### Key Features and Benefits
+*Curated Activity Suggestions*: 
+
+From the home page, users select a category of interest, and the app displays AI-generated suggestions for conscious ways to spend their time.
+
+ - For instance, in the Food category, users might receive ideas like volunteering for meal preparation at a local food bank or donating canned goods to a charitable organization
+ - In the Pets category, recommendations include fostering a pet, volunteering at an animal shelter, or assisting in animal essential care.
+
+*AI-Powered Insights with WatsonX AI*: 
+
+At the heart of Conscious Connector is its integration with WatsonX AI, IBM’s advanced Generative AI platform powering the app's capabilities.
+
+ - Users select a category and activity, the app then displays a Watson X AI generated description.
+ - The prompts are sent to WatsonX AI for natural language processing (NLP), and are designed to ensure that the descriptions are relevant and tailored to promote conscious living.
+
+*Environmental and Social Impact*:
+
+Conscious Connector aims to inspire users to rethink how they allocate their time by focusing on activities that contribute positively to the community and environment. Each suggestion encourages personal growth and community engagement, fostering a culture of support and responsibility towards the planet.
+
+*User-Centric Experience (Coming Soon)*: 
+
+The app is designed with a user-friendly interface with ease of navigation in mind. Users can choose categories, view suggested activities, and will eventually be able to share their experiences with others within the app. This interactive design will encourage engagement and grow a community of individuals committed to making a difference.
+
+*Personalized Recommendations (Coming Soon)*:
+
+As additional curated categories and activities are added, the app will learn from the user’s preferences and suggest new-to-you opportunities to make a difference. If a user frequently engages with pet-related activities, the app will prioritize similar suggestions in the future and as they become available.
 
 ## Technology implementation
 
@@ -57,29 +86,15 @@ _INSTRUCTIONS: Included here is a list of IBM watsonx products. Remove any produ
 
 **Featured watsonx products**
 
-- [watsonx.ai](https://www.ibm.com/products/watsonx-ai) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [watsonx.governance](https://www.ibm.com/products/watsonx-governance) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [watsonx.ai](https://www.ibm.com/products/watsonx-ai) - WatsonX AI is used for content generation using prompts engineered by our team.
 
 ### Other IBM technology used
 
-INSTRUCTIONS: List any other IBM technology or IBM AI services used in your solution and describe how each component was used. If you can provide details on where these were used in your code, that would help the judges review your submission.
+ - [IBM Identity and Access Management](https://www.ibm.com/services/identity-access-management) - IBM IAM was used to provide our Web API access to WatsonX AI REST endpoints. used in 
 
 **Additional IBM AI services (Remove any that you did not use)**
 
-- [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Language Translator](https://cloud.ibm.com/catalog/services/language-translator) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - Watson Machine Learning is used in conjuction with WatsonX AI for content generation.
 
 ### Solution architecture
 
@@ -87,12 +102,13 @@ REPLACE THIS EXAMPLE WITH YOUR OWN, OR REMOVE THIS EXAMPLE
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Conscious Connector App/Mobile Web](./images/SolutionArchitecture-ConciousConnector.drawio.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. The user navigates to the site and is presented with a list of Conscious Categories.
+2. The user selects a category and is presented with a list of activities for volunteering or sustainable living.
+3. When an activity is selected, the detailed descriptiion is shown, which includes information on how to volunteer and the positive impact it will have.
+   App content is generated by Watson X AI.
+
 
 ## Presentation materials
 
@@ -126,36 +142,10 @@ INSTRUCTIONS: In this section you add the instructions to run your project on yo
 
 ### Live demo
 
-You can find a running system to test at...
+The mobile web app is running at: https://mango-forest-0eab98a0f.5.azurestaticapps.net/home
 
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+An Android build of the app can also be downloaded and sideloaded get repo [Release 1.0.0](https://github.com/blackhammer/ibm-cfc2024/releases/tag/1.0.0)
+
+No Authentication is required for this initial release.
 
 ---
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
