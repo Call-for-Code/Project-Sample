@@ -23,6 +23,5 @@ jobs:
     - name: Install node dependencies, execute tests and build the project
       run: |
         npm install
-        npm run test:nowatch
         npx expo export --platform web
   

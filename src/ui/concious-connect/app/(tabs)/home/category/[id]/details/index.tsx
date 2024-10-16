@@ -4,6 +4,7 @@ import { CategoryContext } from '@/app/CategoryContext';
 import { } from 'react-native';
 import { Stack, useGlobalSearchParams } from "expo-router";
 import Markdown from 'react-native-markdown-display'
+import { FooterView } from '@/components/FooterView';
 
 
 export default function CategoryScreen() {
@@ -23,6 +24,7 @@ export default function CategoryScreen() {
             <Markdown style={{
                 body: { fontSize: 16, fontWeight: '500' },
             }}>{detail?.description}</Markdown>
+            <FooterView/>
         </ScrollView>
     );
 }
