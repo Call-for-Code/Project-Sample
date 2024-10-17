@@ -11,7 +11,7 @@ import { FooterView } from '@/components/FooterView';
 export default function HomeScreen() {
   const router = useRouter();
 
-  const conciousData = useContext(CategoryContext);
+  const consciousData = useContext(CategoryContext);
 
   const [dim, setdim] = React.useState(200)
 
@@ -20,7 +20,7 @@ export default function HomeScreen() {
       <ScrollView contentContainerStyle={{ justifyContent: 'flex-start' }}>
         <SimpleGrid
           itemDimension={130}
-          data={conciousData.categories}
+          data={consciousData.categories}
           style={styles.gridView}
           staticDimension={dim}
           spacing={10}

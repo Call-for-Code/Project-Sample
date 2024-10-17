@@ -11,9 +11,9 @@ export default function CategoryScreen() {
 
     const { id } = useGlobalSearchParams<{id:string}>();
 
-    const conciousData = useContext(CategoryContext);
+    const consciousData = useContext(CategoryContext);
 
-    const category = conciousData.categories.find((catId) => catId.id === id)
+    const category = consciousData.categories.find((catId) => catId.id === id)
 
     return (
         <View style={{flex: 1}}>

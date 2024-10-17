@@ -28,7 +28,7 @@ export default function TabLayout() {
         name="home"
         options={{
           title: 'Home',
-          headerTitle: 'Concious Connector',
+          headerTitle: 'Conscious Connector',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
           ),
@@ -38,7 +38,7 @@ export default function TabLayout() {
         name="info"
         options={{
           title: 'Info',
-          headerTitle: 'Concious Connector',
+          headerTitle: 'Conscious Connector',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'information-circle' : 'information-circle-outline'} color={color} />
           ),

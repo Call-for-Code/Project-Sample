@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "concious-connect",
-    "slug": "concious-connect",
+    "name": "conscious-connect",
+    "slug": "conscious-connect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ibmc4c2024.conciousconnector"
+      "bundleIdentifier": "com.ibmc4c2024.consciousconnector"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ibmc4c2024.conciousconnector"
+      "package": "com.ibmc4c2024.consciousconnector"
     },
     "web": {
       "bundler": "metro",

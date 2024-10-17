@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect, useNavigation } from "expo-router";
+import { Redirect } from "expo-router";
 import CategoryProvider from "@/app/CategoryProvider"
 
 

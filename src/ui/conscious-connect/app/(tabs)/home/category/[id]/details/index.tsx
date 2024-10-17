@@ -10,9 +10,9 @@ import { FooterView } from '@/components/FooterView';
 export default function CategoryScreen() {
     const { id, detailId } = useGlobalSearchParams();
 
-    const conciousData = useContext(CategoryContext);
+    const consciousData = useContext(CategoryContext);
 
-    const category = conciousData.categories.find((catId) => catId.id === id)
+    const category = consciousData.categories.find((catId) => catId.id === id)
 
     const detail = category?.items.find((item) => item.id === detailId)
     return (
