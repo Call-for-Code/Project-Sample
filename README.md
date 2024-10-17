@@ -82,7 +82,7 @@ As additional curated categories and activities are added, the app will learn fr
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Conscious Connector App/Mobile Web](./images/SolutionArchitecture-ConciousConnector.drawio.png)
+![Conscious Connector App/Mobile Web](./images/SolutionArchitecture-ConsciousConnector.drawio.png)
 
 1. The user navigates to the site and is presented with a list of Conscious Categories.
 2. The user selects a category and is presented with a list of activities for volunteering or sustainable living.
@@ -92,25 +92,24 @@ Diagram and step-by-step description of the flow of our solution:
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](./images//Thumbnail-ConsciousConnector.png)](https://www.youtube.com/watch?v=UpjxQkhs91I)
 
 ### Project development roadmap
 
-The project currently does the following things.
+The solution currently has the following capabilities:
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Display AI-generated content for local volunteering and sustainable living opportunities.
+  - Prototype developed for the Greater Montreal Area in Canada.
+- Available as an Android app (downloadble from github release) and mobile web site.
+- Backend API used to generate or updated app content
 
 In the future we plan to...
 
 See below for our proposed schedule on next steps after Call for Code 2024 submission.
 
-![Roadmap](./images/roadmap.jpg)
+![Roadmap](./images/Roadmap-ConsciousConnector.drawio.png)
 
 ## Additional details
 
@@ -122,7 +121,7 @@ INSTRUCTIONS: In this section you add the instructions to run your project on yo
 
 ### Live demo
 
-The mobile web app is running at: https://mango-forest-0eab98a0f.5.azurestaticapps.net/home
+The mobile web app is running at (best viewed on mobile browser): https://mango-forest-0eab98a0f.5.azurestaticapps.net/home
 
 An Android build of the app can also be downloaded and sideloaded get repo [Release 1.0.0](https://github.com/blackhammer/ibm-cfc2024/releases/tag/1.0.0)
 
