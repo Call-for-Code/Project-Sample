@@ -94,7 +94,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 ### Solution demo video
 
-[![Watch the video](./images//Thumbnail-ConsciousConnector.png)](https://www.youtube.com/watch?v=UpjxQkhs91I)
+[![Watch the video](./images/Thumbnail-ConsciousConnector.png)](https://www.youtube.com/watch?v=UpjxQkhs91I)
 
 ### Project development roadmap
 
@@ -113,11 +113,44 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
 
 ## Additional details
 
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
-
 ### How to run the project
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+Development for this solution done with Visual Studio Code on Windows and Linux (WSL2).
+
+The solution has two components that can be run on a local desktop.  The development environemt was:
+
+- .NET Web API: Windows 11
+- ReactNative App: Archlinux on WSL2 (Windows Subsystem For Linux)
+
+However, both solutions can be setup to run on either Windows, Linux or MacOS
+
+#### Setup React Native development environment
+The ReactNative app uses Expo. Development environment instructions found here: 
+
+[Setup Expo](https://docs.expo.dev/get-started/set-up-your-environment/?mode=development-build&buildEnv=local)
+- This project uses 'Android Device' and 'Development Build', and 'unselect' 'Build with Expo Application Services(EAS)'
+
+However, if desired, it is also enough to run the mobile web version of the app
+
+#### Setup for mobile web development only
+
+- Install NodeJs LTS
+- Git clone the project and navigate to ui root folder: ./src/ui/conscious-connect/
+- In project root folder, run: npx expo install expo-dev-client
+- npx expo start
+  - the project will be served on http://localhost:8081/
+- Use the browser's development menu (CTRL+Shift+i in Chrome/Edge) to switch to 'Responsive' dimensions
+
+#### Setup .NET Web API
+
+On the platform of choice, install .NET 8 from Microsoft (or via package manager on Linux):
+
+[Setup .NET LTS](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+
+- Open the solution folder in VS Code
+- From menu, choose Run -> Start Debugging to run project.
+- *Replace IBM IAM API Key in file ./src/api/WatsonXAPI/secrets/Your-IBM-API-KEY.json
+- *Replace projectid with your own Watson X AI projectid in file: /src/api/WatsonXAPI/Prompts/WatsonXInput.json
 
 ### Live demo
 
