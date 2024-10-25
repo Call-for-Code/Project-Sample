@@ -7,3 +7,5 @@ A basic GitHub repository example for Call for Code projects and those that join
 _Read this in other languages: [English](../README.md), [한국어](README.ko.md), [português](README.pt_br.md), [中文](./docs/README.zh.md)._
 
 ## How to Contribute in Issues
+
+## How to Contribute in Issues
