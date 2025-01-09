@@ -8,7 +8,7 @@ Use the **Use this template** button to create a new version of this repository 
 
 _New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
 
-# Replace this heading with your team/submission name
+# Megatrust Solutions as well as modernizing urban systems for residents to feel comfortable with a data security integration system
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
